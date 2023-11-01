@@ -40,9 +40,6 @@ const logo = (
 )
 
 const config: DocsThemeConfig = {
-  project: {
-    link: 'https://github.com/shuding/nextra'
-  },
   docsRepositoryBase: 'https://github.com/antonatlasov115/abagaconnect2/tree/main/docs',
   useNextSeoProps() {
     const { asPath } = useRouter()

@@ -11,12 +11,9 @@
     "type": "separator",
     "title": "More"
   },
-  "about-link": {
-    "title": "About Nextra",
-    "href": "/about"
-  },
+  "loca": "достопримечательности",
   "next.js-link": {
-    "title": "Next.js Docs ↗",
+    "title": "2Gis ↗",
     "href": "https://nextjs.org?utm_source=nextra.site&utm_medium=referral&utm_campaign=sidebar",
     "newWindow": true
   }
