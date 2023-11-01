@@ -177,7 +177,7 @@ const LOADING_LOCALES: Record<string, string> = {
 }
 
 const PLACEHOLDER_LOCALES: Record<string, string> = {
-  'en-US': 'Search documentation',
+  'en-US': 'Поиск ',
   fr: 'Rechercher documents',
   ru: 'Поиск документации',
   'zh-CN': '搜索文档'
@@ -280,7 +280,7 @@ export const DEFAULT_THEME: DocsThemeConfig = {
   },
   primaryHue: {
     dark: 204,
-    light: 212
+    light: 12
   },
   primarySaturation: {
     dark: 100,
@@ -289,8 +289,7 @@ export const DEFAULT_THEME: DocsThemeConfig = {
   project: {
     icon: (
       <>
-        <GitHubIcon />
-        <span className="nx-sr-only">GitHub</span>
+
       </>
     )
   },
@@ -340,14 +339,14 @@ export const DEFAULT_THEME: DocsThemeConfig = {
       if (locale === 'zh-CN') {
         return { dark: '深色主题', light: '浅色主题', system: '系统默认' }
       }
-      return { dark: 'Dark', light: 'Light', system: 'System' }
+      return { dark: 'Тёмная', light: 'Светлая', system: 'Системная' }
     }
   },
   toc: {
     backToTop: false,
     component: TOC,
     float: true,
-    title: 'On This Page'
+    title: 'На этой странице 💻'
   },
   useNextSeoProps: () => ({ titleTemplate: '%s – Nextra' })
 }

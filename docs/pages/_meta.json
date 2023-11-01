@@ -1,19 +1,18 @@
 {
   "index": {
     "type": "page",
-    "title": "Nextra",
-    "display": "hidden",
+    "title": "Главное",
     "theme": {
       "layout": "raw"
     }
   },
   "docs": {
     "type": "page",
-    "title": "Documentation"
+    "title": "История"
   },
   "showcase": {
     "type": "page",
-    "title": "Showcase",
+    "title": "Туризм",
     "theme": {
       "typesetting": "article",
       "layout": "full"
@@ -21,7 +20,7 @@
   },
   "about": {
     "type": "page",
-    "title": "About",
+    "title": "О нас",
     "theme": {
       "typesetting": "article"
     }
