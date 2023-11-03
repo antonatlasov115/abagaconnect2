@@ -74,11 +74,11 @@ const config: DocsThemeConfig = {
         <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="description"
-          content="Make beautiful websites with Next.js & MDX."
+          content="узнай про село Абага больше"
         />
         <meta
           name="og:description"
-          content="Make beautiful websites with Next.js & MDX."
+          content="узнай про село Абага больше"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
@@ -132,12 +132,9 @@ const config: DocsThemeConfig = {
             className="flex items-center gap-1 text-current"
             target="_blank"
             rel="noopener noreferrer"
-            title="vercel.com homepage"
-            href="https://vercel.com?utm_source=nextra.site"
           >
             <span>Powered by</span>
             <svg height={20} viewBox="0 0 377 46" fill="none">
-              <title>Vercel</title>
               <path d="M89.2695 31.576H81.7175L80.5975 35H73.1415L81.4295 
     12.344H89.6215L97.8775 35H90.3895L89.2695 31.576ZM87.5415
      26.232L85.4935 19.928L83.4455 26.232H87.5415ZM106.596 19.416C107.044

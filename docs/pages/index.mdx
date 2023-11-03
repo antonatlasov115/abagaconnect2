@@ -14,13 +14,15 @@ import styles from './index.module.css'
 
 
     <div className=" py-12 sm:py-16 lg:py-20 xl:pt-32 xl:pb-44">
-        <div className="absolute inset-0 hidden lg:block">
-            <img className="object-cover object-right-bottom w-full h-full" src="https://i.ytimg.com/vi/yUkLSBKe6zs/maxresdefault.jpg" alt="" />
-        </div>
-        <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="absolute inset-0 hidden lg:block w-fit z-1 h-max dark:brightness-70 "> 
+             <video autoPlay="autoplay" loop muted playsInline >
+            <source src="/assets/haramaa.mp4" type="video/mp4"/>
+          </video>
+       </div>
+        <div className="mt-10 relative px-2 mx-auto sm:px-6 lg:px-8 max-w-screen-2xl">
             <div className="max-w-xl mx-auto text-center lg:max-w-md xl:max-w-lg lg:text-left lg:mx-0">
-                <h1 className="text-3xl font-bold text-black dark:text-white sm:text-4xl xl:text-5xl xl:leading-tight">Build SaaS Landing Page without Writing a Single Code</h1>
-                <p className="mt-8 text-base font-normal leading-7 dark:text-gray-400 text-gray-900 lg:max-w-md xl:pr-0 lg:pr-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc nisl eu consectetur. Mi massa elementum odio eu viverra amet.</p>
+                <h1 className="text-3xl font-black text-white sm:text-4xl xl:text-5xl xl:leading-tight">AbagaConnect все о село Абага в одном месте</h1>
+                <p className="mt-8 text-base font-bold leading-7 text-white  lg:max-w-md xl:pr-0 lg:pr-16">Lorem ipsum dolor sit amet, апрпарconsectetur adipiscing elit. In nunc nisl eu consectetur. Mi massa elementum odio eu viverra amet.</p>
 
                 <div className="flex items-center justify-center mt-8 space-x-5 xl:mt-16 lg:justify-start">
                     <a
@@ -36,11 +38,13 @@ import styles from './index.module.css'
                             font-bold
                             leading-7
                             text-gray-100
-                            dark:text-gray-800
+                            dark:text-white
                             transition-all
                             duration-200
-                            dark:bg-white
-                            bg-gray-800
+                            dark:bg-white/20
+                            bg-white/20
+                            
+                            backdrop-blur-lg
                             border border-transparent
                             rounded-full
                             sm:px-6
@@ -51,37 +55,13 @@ import styles from './index.module.css'
                     >
                         Get UI Kit Now
                     </a>
-
-                    <a
-                        href="#"
-                        title=""
-                        className="
-                            inline-flex
-                            items-center
-                            justify-center
-                            px-2
-                            py-3
-                            text-base
-                            font-bold
-                            leading-7
-                            text-gray-600
-                            transition-all
-                            duration-200
-                            bg-transparent
-                            border border-transparent
-                            rounded-md
-                            sm:px-4
-                            
-                        "
-                        role="button"
-                    >
-                        Check live preview
-                    </a>
                 </div>
             </div>
         </div>
 
-        <div className="mt-8 lg:hidden">
-            <img className="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/1/bg.png" alt="" />
-        </div>
+        <div className="lg:hidden">
+
+      </div>
+      <div className="mt-48 ">
+      </div>
     </div>
