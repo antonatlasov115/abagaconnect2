@@ -68,6 +68,7 @@ const config: DocsThemeConfig = {
 
     return (
       <>
+      <meta name="yandex-verification" content="0e1d43bc98f40b7e" />
         <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#fff" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
