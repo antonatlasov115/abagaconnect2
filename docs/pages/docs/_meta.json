@@ -1,20 +1,13 @@
 {
-  "index": "Абага",
-  "abaga": "Организации",
-  "-- Themes": {
-    "type": "separator",
-    "title": "Themes"
-  },
-  "blog-theme": "",
-  "custom-theme": "",
-  "-- More": {
+  "index": "Абага", 
+  "abga-amga": "Абаҕа нэһилиэгин Амма улууhун киинэ",
+  "abaga-born": "Абаҕа нэһилиэгин үөскээһинэ, төрүттэниитэ",
+  "chronolgy": "Нэһилиэк историятын хронологията",
+  "perepis": "Первая всеобщая перепись",
+  "pravoslavie":"НэҺилиэккэ православнай итэҕэл кириитэ",
+  "-- прочее": {
     "type": "separator",
     "title": "More"
   },
-  "loca": "достопримечательность",
-  "next.js-link": {
-    "title": "2Gis ↗",
-    "href": "https://nextjs.org?utm_source=nextra.site&utm_medium=referral&utm_campaign=sidebar",
-    "newWindow": true
-  }
+  "loca": "достопримечательность"
 }

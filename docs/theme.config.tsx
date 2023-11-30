@@ -40,6 +40,16 @@ const logo = (
 )
 
 const config: DocsThemeConfig = {
+
+  banner: {
+    key: '2.0-release',
+    text: (
+      <a target="_blank">
+        🎉 Абага сайата аррыллыбыт кунунэн
+      </a>
+    )
+  },
+
   docsRepositoryBase: 'https://github.com/antonatlasov115/abagaconnect2/tree/main/docs',
   useNextSeoProps() {
     const { asPath } = useRouter()
@@ -148,9 +158,9 @@ const config: DocsThemeConfig = {
 
             </svg>
           </a>
-        </div>
+          </div>
         <p className="mt-6 text-xs">
-          © {new Date().getFullYear()} AbagaConnect DEV.
+          © {new Date().getFullYear()} 🔰React-dev Atlasov Anton 📱89963178892 
         </p>
       </div>
     )
